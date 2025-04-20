@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  background-attachment: fixed;
+  color: white;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(141, 219, 246, 0.9);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #00d8ff;
+}
+
+/* Blog List Container */
+.blog-list {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Blog Card */
+.blog-card {
+  background-color: #1c2e3f;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+.blog-card h3 {
+  margin-top: 0;
+  color: #00d8ff;
+}
+
+.blog-card p {
+  margin: 0.5rem 0 1rem;
+}
+
+/* Button Styles */
+button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button.edit {
+  background-color: #00d8ff;
+  color: #000;
+}
+
+button.delete {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+button.edit:hover {
+  background-color: #00c0e0;
+}
+
+button.delete:hover {
+  background-color: #e63939;
+}
+
+/* Form Page Centering */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #aecce8;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #ccc;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+form button {
+  background-color: #00d8ff;
+  color: black;
+}
+
+form button:hover {
+  background-color: #00c0e0;
+}
