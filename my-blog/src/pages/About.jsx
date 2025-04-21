@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="container">
-      <h2>About MyBlog</h2>
+      <h2>About Blogzilla</h2>
       <p>Hey there! 👋 I'm glad you stopped by.
 
 I'm a passionate writer and developer who loves to explore new ideas, share knowledge, and dive deep into topics that spark curiosity. This blog is my little corner of the internet where I post about tech, creativity, personal growth, and whatever else is on my mind.

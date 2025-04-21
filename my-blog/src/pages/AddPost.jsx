@@ -16,7 +16,7 @@ const AddPost = () => {
 
   return (
     <div className="container">
-      <h2>Add New Blog</h2>
+      <h2>Add New Blog!!!!</h2>
       <BlogForm onSubmit={handleSubmit} />
     </div>
   );
